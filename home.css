@@ -1,0 +1,88 @@
+*{
+    margin: 20px;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-top{
+    color: midnightblue;
+    font-size: 20px;
+}
+.logo-top::first-letter{
+    color: red;
+    font-size: 24px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: midnightblue;
+}
+nav ul li a:hover{
+    color: rgb(184, 184, 53);
+}
+#intro-page{
+    /* background-image: url(images/pexels-pixabay-261985-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    */
+}
+.back-intro{
+    background: cover;
+    width: 100%;
+}
+.head-text{
+    text-align: center;
+    margin-top: 10px;
+    color: midnightblue;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-p{
+
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.buttons{
+    text-align: center;
+}
+.btn-1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 16px;
+    color: midnightblue;
+    background: mediumspringgreen;
+    font-size: 20px;
+}
+.btn-1:hover{
+    background: midnightblue;
+    color: mediumspringgreen;
+}
+.btn-2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 16px;
+    color: midnightblue;
+    background: mediumspringgreen;
+    font-size: 20px;
+}  
+.btn-2:hover{
+    background: midnightblue;
+    color: mediumspringgreen;
+}
